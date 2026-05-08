@@ -11,7 +11,7 @@ jobs:
         run: |
           wget -O rostam-media.zip "https://github.com/Ma5t3rful/rostam-media/archive/refs/tags/v0.3.0.zip"
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
           name: rostam-media-source
           path: rostam-media.zip
